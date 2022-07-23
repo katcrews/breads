@@ -17,8 +17,6 @@ function Index({ breads, bakers, title }) {
                 }
             </ul>
             <h3>Breads</h3>
-            {/* <p>I have {breads[0].name} bread!</p> */}
-            {/* This is a JSX comment. */}
             <ul>
                 {breads.map((bread, index) => {
                     return (
